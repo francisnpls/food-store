@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <nav class="nav-bar" data-aos="fade-down">
             <div class="container d-flex justify-content-between align-items-center">
                 <div class="nav-bar__logo">
@@ -24,11 +24,11 @@
                 </div>
                 <div class="nav-bar__menu">
                     <ul class="d-flex align-items-center gap-5 nav-bar__menu-links">
-                        <li><a href="https://getbootstrap.com/docs/5.3/utilities/flex/" target="_blank">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Best Food</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#bestfood">Best Food</a></li>
                         <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="nav-bar__burger">
@@ -44,11 +44,11 @@
                 <hr>
                 <div class="nav-bar__modal-menu">
                     <ul class="nav-bar__modal-link">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Best Food</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#bestfood">Best Food</a></li>
                         <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <hr>
@@ -68,7 +68,7 @@
                         alteration in some form, by injected humour, or randomised words which don't look even slightly
                         believable.</p>
                     <button type="button" class="btn-primary hero-title-btn">
-                        <a href="#"> Browse All Services </a>
+                        <a href="bestfood"> Browse All Services </a>
                     </button>
                 </div>
                 <div class="hero-img img-fluid p-2 w-100" data-aos="fade-up">
@@ -90,7 +90,7 @@
 
         </div>
         <div class="header-bg">
-            <img class="dots" src="images/dots-bg.png" alt="dots">
+            <!-- <img class="dots" src="images/dots-bg.png" alt="dots"> -->
             <img class="pizza" src="images/pizza.png" alt="pizza">
             <img class="mushroom" src="images/mushroom.png" alt="mushroom">
             <img class="lettuce" src="images/lettuce.png" alt="lettuce">
@@ -99,11 +99,11 @@
         </div>
     </header>
 
-    <section class="special-menu">
+    <section id="bestfood" class="special-menu">
         <div class="container">
             <h1 class="text-center" data-aos="zoom-in">Our Special Menu</h1>
-            <div class="row" >
-                <div class="col-xs-2 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="row">
+                <div class="col-sm col-md-6 col-lg-4" data-aos="fade-up">
                     <div class="special-menu__cards">
                         <div class="backgroundEffect"></div>
                         <img class="img-fluid" src="images/vegetables-1.jpg" alt="veggies">
@@ -116,7 +116,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-2 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up">
+                <div class="col-sm col-md-6 col-lg-4" data-aos="fade-up">
                     <div class="special-menu__cards">
                         <div class="backgroundEffect"></div>
                         <img class="img-fluid" src="images/pizza-1.jpg" alt="pizza-1">
@@ -185,7 +185,7 @@
         </div>
     </section>
 
-    <section class="choose-us">
+    <section class="choose-us" id="about">
         <div class="choose-us__display container d-flex gap-4">
             <div class="choose-us__text" data-aos="fade-right">
                 <h1>Why Choose Us</h1>
@@ -293,8 +293,10 @@
                             </div>
                         </div>
                         <div class="reviews-list__card-rev">
-                            <p>"There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            <p>"There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered
+                                alteration in some form, by injected humour, or randomised words which don't look even
+                                slightly
                                 believable. If you are going to use a passage of Lorem Ipsum."</p>
                         </div>
                     </div>
@@ -307,8 +309,10 @@
                             </div>
                         </div>
                         <div class="reviews-list__card-rev">
-                            <p>"There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            <p>"There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered
+                                alteration in some form, by injected humour, or randomised words which don't look even
+                                slightly
                                 believable. If you are going to use a passage of Lorem Ipsum."</p>
                         </div>
                     </div>
@@ -321,8 +325,10 @@
                             </div>
                         </div>
                         <div class="reviews-list__card-rev">
-                            <p>"There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            <p>"There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered
+                                alteration in some form, by injected humour, or randomised words which don't look even
+                                slightly
                                 believable. If you are going to use a passage of Lorem Ipsum."</p>
                         </div>
                     </div>
@@ -335,7 +341,9 @@
                             </div>
                         </div>
                         <div class="reviews-list__card-rev">
-                            <p>"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum."</p>
+                            <p>"There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which don't
+                                look even slightly believable. If you are going to use a passage of Lorem Ipsum."</p>
                         </div>
                     </div>
                     <div class="reviews-list__card">
@@ -347,12 +355,14 @@
                             </div>
                         </div>
                         <div class="reviews-list__card-rev">
-                            <p>"There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            <p>"There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered
+                                alteration in some form, by injected humour, or randomised words which don't look even
+                                slightly
                                 believable. If you are going to use a passage of Lorem Ipsum."</p>
                         </div>
                     </div>
-                </div>               
+                </div>
             </div>
             <div class="reviews-list__arrow">
                 <div class="reviews-list__arrow-left">
@@ -379,7 +389,10 @@
                                 <i class="fa-solid fa-plus"></i>
                             </div>
                             <div class="questions-list__card-answer">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries</p>
                             </div>
                         </div>
                         <div class="questions-list__card">
@@ -388,7 +401,10 @@
                                 <i class="fa-solid fa-plus"></i>
                             </div>
                             <div class="questions-list__card-answer">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries</p>
                             </div>
                         </div>
                         <div class="questions-list__card">
@@ -397,7 +413,10 @@
                                 <i class="fa-solid fa-plus"></i>
                             </div>
                             <div class="questions-list__card-answer">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries</p>
                             </div>
                         </div>
                         <div class="questions-list__card">
@@ -406,7 +425,10 @@
                                 <i class="fa-solid fa-plus"></i>
                             </div>
                             <div class="questions-list__card-answer">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries</p>
                             </div>
                         </div>
                         <div class="questions-list__card">
@@ -415,13 +437,16 @@
                                 <i class="fa-solid fa-plus"></i>
                             </div>
                             <div class="questions-list__card-answer">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="questions-image" >
+                    <div class="questions-image">
                         <img src="images/thinking-1.png" alt="thinking" data-aos="zoom-in">
                         <div class="questions-image_mark">
                             <img class="mark1" src="images/question.png" alt="questions">
@@ -434,8 +459,61 @@
         <div class="questions-image__bg"></div>
     </section>
 
-    <footer class="footer">
-        <h1>footer</h1>
+    <footer class="footer" id="contact">
+        <div class="footer-circle__bg"></div>
+        <div class="container">
+            <div class="footer-title d-flex gap-3 justify-content-center align-items-center">
+                <img src="images/logo.png" alt="logo">
+                <h1>Tasty Bites Inc.</h1>
+            </div>
+        </div>
+        <div class="container d-flex">
+            <div class="footer-hero">
+                <div class="footer-top">
+                    <h3>Philippines</h3>
+                </div>
+                <div class="footer-address">
+                    <p class="footer-address__email">tasty.bites@gmail.com</p>
+                    <p>+63-925-5214-521</p>
+                    <p>B92 Tangkil St. General Trias City, Cavite 4107.</p>
+                </div>
+                <div class="footer-map">
+                    <a href="https://maps.app.goo.gl/aF4QXux5qux6PVdv6" target="_blank">
+                        SEE ON MAP
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <div class="footer-top">
+                    <h3>Quick Links</h3>
+                </div>
+                <div class="footer-links__site">
+                    <a href="#home">Home</a>
+                    <a href="#">About</a>
+                    <a href="#bestfood">Best Food</a>
+                    <a href="#">Menu</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-follow">
+                <div class="footer-top">
+                    <h3>Follow Us</h3>
+                </div>
+                <div class="footer-follow-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr class="footer-hr">
+        <div class="container">
+        <div class="footer-author d-flex justify-content-between">
+            <p>© 2023. Tasty Bites. All Rights Reserved. </p>
+            <p> Developed By <span>Francisnpls.</span> </p>
+        </div>
+        </div>
     </footer>
 
 

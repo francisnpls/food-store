@@ -7,12 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tasty Bites</title>
     <link rel="icon" href="images/logo.png">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- BootStrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Font Aswesome -->
     <script src="https://kit.fontawesome.com/300b295e9c.js" crossorigin="anonymous"></script>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/included.js"></script>
 </head>
 
 <body>
@@ -24,11 +28,11 @@
                 </div>
                 <div class="nav-bar__menu">
                     <ul class="d-flex align-items-center gap-5 nav-bar__menu-links">
-                        <li><a href="#home">Home</a></li>
+                        <li><a href="index.html#home">Home</a></li>
                         <li><a href="#about">About</a></li>
-                        <li><a href="#bestfood">Best Food</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="index.html#bestfood">Best Food</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="#includedFooter">Contact</a></li>
                     </ul>
                 </div>
                 <div class="nav-bar__burger">
@@ -47,7 +51,7 @@
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#bestfood">Best Food</a></li>
-                        <li><a href="#">Menu</a></li>
+                        <li><a href="menu.html">Menu</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -173,7 +177,7 @@
                         <div class="backgroundEffect"></div>
                         <img class="img-fluid" src="images/pizza-2.jpg" alt="pizza-2">
                         <div class="special-menu__cards-info">
-                            <h2>Garlic Pepper Chicken</h2>
+                            <h2>BBQ Chicken Pizza</h2>
                             <p>The combination of cold crunchiness, mild bitterness and salty dressings is everlastingly
                                 refreshing and satisfying.</p>
                             <a href="#">Order Now > </a>
@@ -459,66 +463,10 @@
         <div class="questions-image__bg"></div>
     </section>
 
-    <footer class="footer" id="contact">
-        <div class="footer-circle__bg"></div>
-        <div class="container">
-            <div class="footer-title d-flex gap-3 justify-content-center align-items-center">
-                <img src="images/logo.png" alt="logo">
-                <h1>Tasty Bites Inc.</h1>
-            </div>
-        </div>
-        <div class="container d-flex">
-            <div class="footer-hero">
-                <div class="footer-top">
-                    <h3>Philippines</h3>
-                </div>
-                <div class="footer-address">
-                    <p class="footer-address__email">tasty.bites@gmail.com</p>
-                    <p>+63-925-5214-521</p>
-                    <p>B92 Tangkil St. General Trias City, Cavite 4107.</p>
-                </div>
-                <div class="footer-map">
-                    <a href="https://maps.app.goo.gl/aF4QXux5qux6PVdv6" target="_blank">
-                        SEE ON MAP
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="footer-nav">
-                <div class="footer-top">
-                    <h3>Quick Links</h3>
-                </div>
-                <div class="footer-links__site">
-                    <a href="#home">Home</a>
-                    <a href="#">About</a>
-                    <a href="#bestfood">Best Food</a>
-                    <a href="#">Menu</a>
-                    <a href="#contact">Contact</a>
-                </div>
-            </div>
-            <div class="footer-follow">
-                <div class="footer-top">
-                    <h3>Follow Us</h3>
-                </div>
-                <div class="footer-follow-social">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-                </div>
-            </div>
-        </div>
-        <hr class="footer-hr">
-        <div class="container">
-        <div class="footer-author d-flex justify-content-between">
-            <p>© 2023. Tasty Bites. All Rights Reserved. </p>
-            <p> Developed By <span>Francisnpls.</span> </p>
-        </div>
-        </div>
+    <footer class="footer" id="includedFooter">
     </footer>
 
 
-
-    <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
@@ -529,6 +477,7 @@
             offset: 100
         });
     </script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -65,47 +65,6 @@ const reviews = () => {
 }
 reviews()
 
-// const questions = () => {
-//     // Select all elements once at the beginning
-//     const card = document.querySelectorAll(".questions-list__card");
-//     const answer = document.querySelectorAll(".questions-list__card-answer");
-//     const sign = document.querySelectorAll(".fa-plus");
-
-//     // Function to toggle the plus/minus sign and color
-//     const changeSign = (sign) => {
-//         if (sign.classList.contains("fa-plus")) {
-//             sign.classList.remove("fa-plus");
-//             sign.classList.add("fa-minus");
-//             sign.style.color = "#fff";
-//         } else {
-//             sign.classList.remove("fa-minus");
-//             sign.classList.add("fa-plus");
-//             sign.style.color = "var(--secondary-color)";
-//         }
-//     }
-
-//     // Event listeners for each card
-//     card.forEach((cards, index) => {
-//         cards.addEventListener('click', () => {
-//             setTimeout(() => {
-//                 if (answer[index].style.display === "block") {
-//                     answer[index].style.display = "none";
-//                     cards.style.background = "#fff";
-//                     cards.style.color = "#000";
-//                     changeSign(sign[index]);
-//                 } else {
-//                     answer[index].style.display = "block";
-//                     cards.style.background = "#F9A101";
-//                     cards.style.color = "#fff";
-//                     changeSign(sign[index]);
-//                 }
-//             }, 100);
-
-//         })
-//     });
-// }
-// questions()
-
 const questions = () => {
     // Select all elements once at the beginning
     const cards = document.querySelectorAll(".questions-list__card");
@@ -141,3 +100,4 @@ const questions = () => {
     });
 }
 questions()
+

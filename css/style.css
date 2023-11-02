@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+/* other css file */
+@import url(menu.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +34,8 @@ html {
 
 .nav-bar {
     background-color: #fff;
-    position: fixed;
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+    position: fixed !important;
     width: 100%;
     z-index: 2;
 }
@@ -604,7 +608,7 @@ hr {
 }
 
 .home-delivery__info-title p {
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .home-delievry__check-title i {
@@ -621,7 +625,7 @@ hr {
 }
 
 .home-delievry__check-title p {
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 
@@ -704,7 +708,7 @@ hr {
 
 .reviews-list__card-rev {
     padding-top: 20px;
-    opacity: .6;
+    opacity: .7;
     font-size: 15px;
 }
 
@@ -768,7 +772,6 @@ hr {
 .questions-list {
     flex: 1;
     margin-top: 40px;
-    z-index: 1;
 }
 
 .questions-list__card {
@@ -777,7 +780,6 @@ hr {
     padding: 0 20px;
     cursor: pointer;
     transition: 0.3s ease-out;
-    z-index: 1;
 }
 
 .questions-list__card-asked p {

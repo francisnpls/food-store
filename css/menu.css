@@ -400,20 +400,13 @@ main {
 }
 
 @media screen and (max-width: 420px) {
-    .product-card {
-        height: 60vh;
-    }
 
 }
 
 @media screen and (max-width: 395px) {
-    .product-card {
-        height: 60vh;
-    }
+
 }
 
 @media screen and (max-width: 376px) {
-    .product-card {
-        height: 80vh;
-    }
+
 }

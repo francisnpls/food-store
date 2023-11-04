@@ -244,7 +244,6 @@ main {
     background-color: #fff;
     box-shadow: 0 7.5px 22.5px 6px #e6e6e6;
     position: relative;
-    border-radius: 20px;
 }
 
 /* .product-card-content {
@@ -263,8 +262,7 @@ main {
 .product-img {
     height: 200px;
     width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+
 }
 
 .product-title {
@@ -334,6 +332,8 @@ main {
     left: 10px;
 }
 
+
+
 .add-cart:hover {
     background: #ff7300;
 }
@@ -396,7 +396,7 @@ main {
     }
 
     .product-card {
-        height: 68vh;
+        height: 65vh;
     }
 
     .product-img {

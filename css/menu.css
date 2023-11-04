@@ -8,12 +8,12 @@
 .menu-head {
     position: fixed;
     width: 100%;
-    margin-top: 3.8rem;
+    margin-top: 3.7rem;
     z-index: 1;
 }
 
 .header-choices {
-    min-height: 10vh;
+    height: 10vh;
     background-color: #fff;
     box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
 }
@@ -123,7 +123,7 @@
 
     position: fixed;
     top: 0;
-    right: -100%;
+    right: -100vh;
     z-index: 3;
     transition: 0.4s ease-in-out;
 }

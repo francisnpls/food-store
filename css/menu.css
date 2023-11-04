@@ -23,6 +23,7 @@
     gap: 10px;
     overflow: auto;
     flex: 8;
+    padding-top: 5px;
 }
 
 .menu::-webkit-scrollbar {
@@ -113,13 +114,14 @@
     cursor: pointer;
 }
 
-/* modal cart */
 
+/* modal cart */
 .modal-cart {
     width: 400px;
     height: 100vh;
     background: #fff;
     padding: 0 2rem;
+    overflow: auto;
 
     position: fixed;
     top: 0;
@@ -132,15 +134,21 @@
     right: 0;
 }
 
-.cart-title {
+.modal-cart::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+.cart-title {   
     margin: 3.7rem 0 2.5rem 0;
     text-align: center;
     font-size: 28px;
 }
 
-.cart-content {
+.cart-box {
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 10px;
 }
 
 .cart-img {
@@ -148,6 +156,7 @@
 }
 
 .detail-box {
+    flex: 2;
     display: grid;
     row-gap: 0.4rem;
     margin-bottom: 10px;
@@ -170,6 +179,7 @@
 .cart-remove {
     color: #ff1515;
     font-size: 23px;
+    cursor: pointer;
 
     display: flex;
     justify-content: center;
@@ -197,7 +207,7 @@
 
 .btn {
     display: flex;
-    margin: 1.5rem auto 0 auto;
+    margin: 1.5rem auto 2rem auto;
     padding: 10px 20px;
     color: #fff;
     background-color: var(--secondary-color);
@@ -237,9 +247,9 @@ main {
     border-radius: 20px;
 }
 
-.product-card-content {
+/* .product-card-content {
     padding: 5px 10px 10px 10px;
-}
+} */
 
 .product-card-content h3 {
     font-size: 15px;
@@ -247,6 +257,7 @@ main {
     color: rgb(246, 82, 37);
     opacity: .8;
     margin-bottom: 10px;
+    padding: 5px 0 0 10px;
 }
 
 .product-img {
@@ -258,6 +269,7 @@ main {
 
 .product-title {
     font-size: 23px;
+    padding: 0 10px;
 }
 
 .product-rate i {
@@ -267,11 +279,13 @@ main {
 
 .product-rate {
     font-size: 15px;
+    padding: 0 10px;
 }
 
 .product-description {
     font-size: 14px;
     opacity: .7;
+    padding: 0 10px;
 }
 
 .triangle {
@@ -317,6 +331,7 @@ main {
     align-items: center;
     position: absolute;
     bottom: 0;
+    left: 10px;
 }
 
 .add-cart:hover {
@@ -381,7 +396,7 @@ main {
     }
 
     .product-card {
-        height: 67vh;
+        height: 68vh;
     }
 
     .product-img {

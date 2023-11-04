@@ -195,11 +195,12 @@
 }
 
 .total-title {
-    font-size: 1rem;
+    font-size: 18px;
     font-weight: 600;
 }
 
 .total-price {
+    font-size: 18px;
     margin-left: .6rem;
     color: var(--secondary-color);
     font-weight: 600;
@@ -407,10 +408,12 @@ main {
         border-width: 11px;
         top: 318px;
         right: 55px;
+        display: none;
     }
 
     .product-price {
         top: 323px;
+        font-size: 16px;
     }
 }
 
